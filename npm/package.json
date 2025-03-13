@@ -1,0 +1,144 @@
+{
+  "name": "@bearz/strings",
+  "version": "0.0.1",
+  "homepage": "bearz.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bearz-io/js-strings.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bearz-io/js-strings/discussions"
+  },
+  "module": "./esm/mod.js",
+  "types": "./types/mod.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./types/mod.d.ts",
+        "default": "./esm/mod.js"
+      }
+    },
+    "./camelize": {
+      "import": {
+        "types": "./types/camelize.d.ts",
+        "default": "./esm/camelize.js"
+      }
+    },
+    "./capitalize": {
+      "import": {
+        "types": "./types/capitalize.d.ts",
+        "default": "./esm/capitalize.js"
+      }
+    },
+    "./dasherize": {
+      "import": {
+        "types": "./types/dasherize.d.ts",
+        "default": "./esm/dasherize.js"
+      }
+    },
+    "./ends-with": {
+      "import": {
+        "types": "./types/ends_with.d.ts",
+        "default": "./esm/ends_with.js"
+      }
+    },
+    "./equal": {
+      "import": {
+        "types": "./types/equal.d.ts",
+        "default": "./esm/equal.js"
+      }
+    },
+    "./index-of": {
+      "import": {
+        "types": "./types/index_of.d.ts",
+        "default": "./esm/index_of.js"
+      }
+    },
+    "./inflect": {
+      "import": {
+        "types": "./types/inflect.d.ts",
+        "default": "./esm/inflect.js"
+      }
+    },
+    "./is-null": {
+      "import": {
+        "types": "./types/is_null.d.ts",
+        "default": "./esm/is_null.js"
+      }
+    },
+    "./last-index-of": {
+      "import": {
+        "types": "./types/last_index_of.d.ts",
+        "default": "./esm/last_index_of.js"
+      }
+    },
+    "./pascalize": {
+      "import": {
+        "types": "./types/pascalize.d.ts",
+        "default": "./esm/pascalize.js"
+      }
+    },
+    "./split": {
+      "import": {
+        "types": "./types/split.d.ts",
+        "default": "./esm/split.js"
+      }
+    },
+    "./starts-with": {
+      "import": {
+        "types": "./types/starts_with.d.ts",
+        "default": "./esm/starts_with.js"
+      }
+    },
+    "./string-builder": {
+      "import": {
+        "types": "./types/string_builder.d.ts",
+        "default": "./esm/string_builder.js"
+      }
+    },
+    "./titleize": {
+      "import": {
+        "types": "./types/titleize.d.ts",
+        "default": "./esm/titleize.js"
+      }
+    },
+    "./trim": {
+      "import": {
+        "types": "./types/trim.d.ts",
+        "default": "./esm/trim.js"
+      }
+    },
+    "./underscore": {
+      "import": {
+        "types": "./types/underscore.d.ts",
+        "default": "./esm/underscore.js"
+      }
+    }
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:bun": "bun test"
+  },
+  "authors": [
+    {
+      "name": "jolt9dev",
+      "email": "dev@jolt9.com"
+    }
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "dependencies": {
+    "@bearz/chars": "^0.1.0",
+    "@bearz/slices": "^0.1.0"
+  },
+  "devDependencies": {
+    "picocolors": "^1.0.0",
+    "@types/node": "^22.13.4",
+    "@bearz/testing": "^0.0.0",
+    "@bearz/assert": "^0.1.0"
+  },
+  "_generatedBy": "dnt@dev"
+}

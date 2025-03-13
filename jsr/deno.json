@@ -1,0 +1,23 @@
+{
+    "name": "@bearz/strings",
+    "version": "0.0.1",
+    "exports": {
+        ".": ".//mod.ts",
+        "./camelize": ".//camelize.ts",
+        "./capitalize": ".//capitalize.ts",
+        "./dasherize": ".//dasherize.ts",
+        "./ends-with": ".//ends_with.ts",
+        "./equal": ".//equal.ts",
+        "./index-of": ".//index_of.ts",
+        "./inflect": ".//inflect.ts",
+        "./is-null": ".//is_null.ts",
+        "./last-index-of": ".//last_index_of.ts",
+        "./pascalize": ".//pascalize.ts",
+        "./split": ".//split.ts",
+        "./starts-with": ".//starts_with.ts",
+        "./string-builder": ".//string_builder.ts",
+        "./titleize": ".//titleize.ts",
+        "./trim": ".//trim.ts",
+        "./underscore": ".//underscore.ts"
+    }
+}
