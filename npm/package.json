@@ -1,6 +1,18 @@
 {
   "name": "@bearz/strings",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "description": "A collection of string utilities to avoid extra allocations and enable case insentitivity comparisons.",
+  "keywords": [
+    "strings",
+    "string",
+    "utils",
+    "utility",
+    "case-insentitive",
+    "utf8",
+    "comparison",
+    "string-comparison",
+    "string-builder"
+  ],
   "homepage": "bearz.io",
   "repository": {
     "type": "git",
@@ -65,6 +77,24 @@
       "import": {
         "types": "./types/is_null.d.ts",
         "default": "./esm/is_null.js"
+      }
+    },
+    "./is_empty.ts": {
+      "import": {
+        "types": "./types/is_empty.d.ts",
+        "default": "./esm/is_empty.js"
+      }
+    },
+    "./is-space": {
+      "import": {
+        "types": "./types/is_space.d.ts",
+        "default": "./esm/is_space.js"
+      }
+    },
+    "./is-undefined": {
+      "import": {
+        "types": "./types/is_undefined.d.ts",
+        "default": "./esm/is_undefined.js"
       }
     },
     "./last-index-of": {

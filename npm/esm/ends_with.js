@@ -1,3 +1,10 @@
+/**
+ * The ends-with module provides functions to check if a string ends with a
+ * specified suffix. It includes both case-sensitive and case-insensitive
+ * comparisons. The functions are primarily used for string manipulation
+ * and validation.
+ * @module
+ */
 import { endsWith as og, endsWithFold as ogFold } from "@bearz/slices/ends-with";
 /**
  * Determines whether the string ends with the specified suffix using

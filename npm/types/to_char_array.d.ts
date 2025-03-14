@@ -1,1 +1,1 @@
-export { toCharArray } from "@bearz/slices/utils";
+export { toCharArray, toString } from "@bearz/slices/utils";

@@ -2,7 +2,7 @@ import { test } from "@bearz/testing";
 import { equal } from "@bearz/assert";
 import { indexOf, indexOfFold } from "./index_of.js";
 test("strings::indexOfFold", () => {
-    equal(0, indexOfFold("Hello sdf", "hello"));
+    equal(indexOfFold("Hello sdf", "hello"), 0);
     equal(0, indexOfFold("Hello", "HELLO"));
     equal(7, indexOfFold("sdfsdf Hello", "hello"));
 });

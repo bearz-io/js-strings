@@ -1,3 +1,8 @@
+/**
+ * The underscore module provides a function to convert a string to underscore case.
+ *
+ * @module
+ */
 import { underscore as og } from "@bearz/slices/underscore";
 /**
  * Converts the string to underscore case, generally from camel or pascal

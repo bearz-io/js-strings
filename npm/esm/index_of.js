@@ -1,3 +1,10 @@
+/**
+ * The index-of module provides functions to find the index of the first occurrence
+ * of specified characters in a string. It includes both case-sensitive and
+ * case-insensitive comparison functions.
+ *
+ * @module
+ */
 import { indexOf as og, indexOfFold as ogFold } from "@bearz/slices/index-of";
 /**
  * Gets the index of the first occurrence of the specified characters

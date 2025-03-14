@@ -1,14 +1,17 @@
+// Copyright(c) 2011 Ben Lin <ben@dreamerslab.com>
+// MIT Licensed
+// https://github.com/dreamerslab/node.inflection/blob/master/LICENSE
+// Ported to include additional type info to avoid slow types for jsr
+
 /**
- * Inflections
- * Copyright(c) 2011 Ben Lin <ben@dreamerslab.com>
- * MIT Licensed
+ * The inflect module provides functions to pluralize and singularize English nouns.
+ * It includes functions to convert singular nouns to plural form and vice versa.
+ * It also provides a function to inflect nouns based on a count value.
  *
- * https://github.com/dreamerslab/node.inflection/blob/master/LICENSE
+ * The code is based on the original work by Ben Lin and has been modified to
+ * to only perform singular and plural transformations.
  *
- * Ported to include additional type info to avoid slow types for jsr
- *
- * @fileoverview
- * A port of inflection-js to node.js module.
+ * @module
  */
 
 /**
@@ -395,6 +398,7 @@ const regex = {
         tium: new RegExp("([ti])um$", "gi"),
         sis: new RegExp("sis$", "gi"),
         ffe: new RegExp("(?:([^f])fe|([lr])f)$", "gi"),
+        focus: new RegExp("^(focus)$", "gi"),
         hive: new RegExp("(hi|ti)ve$", "gi"),
         aeiouyy: new RegExp("([^aeiouy]|qu)y$", "gi"),
         x: new RegExp("(x|ch|ss|sh)$", "gi"),
@@ -412,7 +416,6 @@ const regex = {
         common: new RegExp("$", "gi"),
     },
 };
-
 const pluralRules: [RegExp, string?][] = [
     // do not replace if its already a plural word
     [regex.plural.men],
@@ -463,6 +466,7 @@ const pluralRules: [RegExp, string?][] = [
     [regex.singular.tium, "$1a"],
     [regex.singular.sis, "ses"],
     [regex.singular.ffe, "$1$2ves"],
+    [regex.singular.focus, "$1es"],
     [regex.singular.hive, "$1ves"],
     [regex.singular.aeiouyy, "$1ies"],
     [regex.singular.matrix, "$1ices"],
@@ -500,6 +504,7 @@ const singularRules: [RegExp, string?][] = [
     [regex.singular.tium],
     [regex.singular.sis],
     [regex.singular.ffe],
+    [regex.singular.focus],
     [regex.singular.hive],
     [regex.singular.aeiouyy],
     [regex.singular.x],

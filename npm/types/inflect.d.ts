@@ -1,16 +1,4 @@
 /**
- * Inflections
- * Copyright(c) 2011 Ben Lin <ben@dreamerslab.com>
- * MIT Licensed
- *
- * https://github.com/dreamerslab/node.inflection/blob/master/LICENSE
- *
- * Ported to include additional type info to avoid slow types for jsr
- *
- * @fileoverview
- * A port of inflection-js to node.js module.
- */
-/**
  * This function adds pluralization support to every String object.
  * @param str The subject string.
  * @param plural Overrides normal output with said String.(optional)

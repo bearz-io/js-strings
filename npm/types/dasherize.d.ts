@@ -1,3 +1,10 @@
+/**
+ * The dasherize function converts a string to kebab case by replacing
+ * spaces, dashes, and underscores with dashes. It also converts
+ * pascal case to kebab case. This is primarily used for converting
+ * code to kebab case.
+ * @module
+ */
 import { type DasherizeOptions } from "@bearz/slices/dasherize";
 /**
  * Dasherizes the string by replacing ' ', '-' and '_' with '-' and converting

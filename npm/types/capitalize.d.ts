@@ -1,3 +1,8 @@
+/**
+ * This module provides a function to capitalize the first letter of a string.
+ * It is primarily used for converting code to capitalized case.
+ * @module
+ */
 import { type CapitalizeOptions } from "@bearz/slices/capitalize";
 /**
  * Capitalizes the first letter of the string.

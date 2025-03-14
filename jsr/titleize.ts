@@ -1,3 +1,9 @@
+/**
+ * The titleize module provides a function to convert a string to title case.
+ *
+ * @module
+ */
+
 import { titleize as og } from "@bearz/slices/titleize";
 
 /**

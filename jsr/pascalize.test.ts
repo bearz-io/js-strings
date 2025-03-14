@@ -17,8 +17,9 @@ test("slices::pascalize", () => {
     for (const { input, result } of tests) {
         const actual = pascalize(input);
 
-        if (isDebugTests())
+        if (isDebugTests()) {
             console.log(i, input, actual, result);
+        }
 
         equal(actual, result);
         i++;

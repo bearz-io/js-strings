@@ -3,7 +3,7 @@
   "specifiers": {
     "jsr:@bearz/assert@0.1": "0.1.0",
     "jsr:@bearz/chars@0.1": "0.1.0",
-    "jsr:@bearz/slices@0.1": "0.1.0",
+    "jsr:@bearz/slices@0.1.1": "0.1.1",
     "jsr:@bearz/testing@^0.0.0": "0.0.0",
     "jsr:@david/code-block-writer@^13.0.2": "13.0.3",
     "jsr:@deno/cache-dir@~0.10.3": "0.10.3",
@@ -33,8 +33,8 @@
     "@bearz/chars@0.1.0": {
       "integrity": "37140b8b88c2059c6366ffeb00d7122c0db1ab99459e2b0f434a49047618d789"
     },
-    "@bearz/slices@0.1.0": {
-      "integrity": "a36f29217d8bba38d2d52c506cb3881d7f4117f55e0ba0f5466011702c2293d7",
+    "@bearz/slices@0.1.1": {
+      "integrity": "b3182616a3e2f8aebb89ceef7b5e269c85094f98b3c0f6bf2daf0d15f66a4032",
       "dependencies": [
         "jsr:@bearz/chars"
       ]
@@ -149,7 +149,7 @@
     "dependencies": [
       "jsr:@bearz/assert@0.1",
       "jsr:@bearz/chars@0.1",
-      "jsr:@bearz/slices@0.1",
+      "jsr:@bearz/slices@0.1.1",
       "jsr:@bearz/testing@^0.0.0"
     ]
   }

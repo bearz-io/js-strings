@@ -20,7 +20,7 @@
 
     "@bearz/chars": ["@bearz/chars@0.1.0", "", {}, "sha512-e3k53z3NH5swlEMOFcVzIw1TaH19dBBYvVyEUC1Jk0TVy2F5qOgJkTf6xKSkaX1yu/QlwljkMN9uYpkG0M0H7Q=="],
 
-    "@bearz/slices": ["@bearz/slices@0.1.0", "", { "dependencies": { "@bearz/chars": "^0.1.0" } }, "sha512-eEkfZKJUhCPdQnB6B7g1HsHeCHnja05eL7jKpYAN+h5XSiLj9USPorz9cq5W7FlCLinJaNB4oXK9/MxVdlD7PQ=="],
+    "@bearz/slices": ["@bearz/slices@0.1.1", "", { "dependencies": { "@bearz/chars": "^0.1.0" } }, "sha512-XHOKHea6UtWg9goUceyM4ABAaez28OWrmb0bLj2ZtNuJk5rYu2AoX/LTY1eFVSKZbeZxUvuQHR/qdk6FGmdVQQ=="],
 
     "@bearz/testing": ["@bearz/testing@0.0.0", "", {}, "sha512-tKBN8kBR2nP8mpZLJFrqG0Esej23eXLXZNrxj5cAtwT6vbGMKPIhePqVQH8zgcJOlhivKYZNmHjk36px4MaFAQ=="],
 

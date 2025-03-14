@@ -10,7 +10,11 @@ import type { CharBuffer } from "@bearz/slices/utils";
  * @returns The index of the last occurrence of the characters in the string.
  * If the string is not found, returns -1.
  */
-export function lastIndexOf(value: string, chars: CharBuffer, index = 0): number {
+export function lastIndexOf(
+    value: string,
+    chars: CharBuffer,
+    index = Number.POSITIVE_INFINITY,
+): number {
     return og(value, chars, index);
 }
 
@@ -23,6 +27,10 @@ export function lastIndexOf(value: string, chars: CharBuffer, index = 0): number
  * @returns The index of the last occurrence of the characters in the string.
  * If the string is not found, returns -1.
  */
-export function lastIndexOfFold(value: string, chars: CharBuffer, index = 0): number {
+export function lastIndexOfFold(
+    value: string,
+    chars: CharBuffer,
+    index = Number.POSITIVE_INFINITY,
+): number {
     return ogFold(value, chars, index);
 }

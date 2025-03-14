@@ -1,3 +1,9 @@
+/**
+ * The starts-with module provides functions to check if a string starts with a given prefix.
+ *
+ * @module
+ */
+
 import { startsWith as og, startsWithFold as ogFold } from "@bearz/slices/starts-with";
 import type { CharBuffer } from "@bearz/slices/utils";
 

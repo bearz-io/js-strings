@@ -1,3 +1,9 @@
+/**
+ * The pascalize module provides a function to convert a string to pascal case.
+ *
+ * @module
+ */
+
 import { pascalize as og } from "@bearz/slices/pascalize";
 
 /**

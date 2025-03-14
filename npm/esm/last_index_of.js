@@ -8,7 +8,7 @@ import { lastIndexOf as og, lastIndexOfFold as ogFold } from "@bearz/slices/last
  * @returns The index of the last occurrence of the characters in the string.
  * If the string is not found, returns -1.
  */
-export function lastIndexOf(value, chars, index = 0) {
+export function lastIndexOf(value, chars, index = Number.POSITIVE_INFINITY) {
     return og(value, chars, index);
 }
 /**
@@ -20,6 +20,6 @@ export function lastIndexOf(value, chars, index = 0) {
  * @returns The index of the last occurrence of the characters in the string.
  * If the string is not found, returns -1.
  */
-export function lastIndexOfFold(value, chars, index = 0) {
+export function lastIndexOfFold(value, chars, index = Number.POSITIVE_INFINITY) {
     return ogFold(value, chars, index);
 }

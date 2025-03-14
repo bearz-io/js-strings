@@ -1,5 +1,15 @@
-import { isSpaceAt } from "@bearz/chars/is-space";
+/**
+ * The is-space module provides functions to check if a string
+ * is null, undefined, empty, or only contains whitespace.
+ *
+ * This module includes the following functions:
+ * - `isSpace`: Determines whether the string only contains whitespace.
+ * - `isNullOrSpace`: Determines whether the string is null, undefined, empty,
+ *   or only contains whitespace.
+ * @module
+ */
 
+import { isSpaceAt } from "@bearz/chars/is-space";
 
 /**
  * Determines whether the string only contains whitespace.

@@ -15,8 +15,9 @@ test("strings::camelize", () => {
     let i = 0;
     for (const { input, result, preserveCase } of tests) {
         const actual = camelize(input, { preserveCase });
-        if (isDebugTests())
+        if (isDebugTests()) {
             console.log(i, input, actual, result);
+        }
         equal(actual, result);
         i++;
     }

@@ -1,7 +1,18 @@
 import { test } from "@bearz/testing";
 import { ok } from "@bearz/assert";
-import { endsWithFold } from "./ends_with.js";
+import { endsWith, endsWithFold } from "./ends_with.js";
 test("strings::endsWithFold", () => {
     ok(endsWithFold("sdfsdf Hello", "hello"));
     ok(endsWithFold("Hello", "HELLO"));
+    ok(endsWithFold("Hello", "lo"));
+    ok(!endsWithFold("Hello", "H"));
+    ok(endsWithFold("Hello", "O"));
+});
+test("strings::endsWith", () => {
+    ok(endsWith("sdfsdf Hello", "Hello"));
+    ok(!endsWith("Hello", "HELLO"));
+    ok(endsWith("Hello", "lo"));
+    ok(!endsWith("Hello", "H"));
+    ok(endsWith("Hello", "o"));
+    ok(!endsWith("Hello", "e"));
 });

@@ -1,3 +1,9 @@
+/**
+ * The equal module provides functions to compare strings for equality.
+ * It includes case-sensitive and case-insensitive comparison functions.
+ *
+ * @module
+ */
 import { equal as og, equalFold as ogFold } from "@bearz/slices/equal";
 /**
  * Determines whether the string is equal to the specified other string.

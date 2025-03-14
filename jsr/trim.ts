@@ -1,3 +1,12 @@
+/**
+ * The trim module provides functions to trim characters from strings and
+ * includes functions to trim leading, trailing, and both leading and
+ * trailing characters.  JavaScript trim functions can only trim whitespace
+ * and these functions are designed to trim any character.
+ *
+ * @module
+ */
+
 import {
     trimChar as ogChar,
     trimEndChar as ogEndChar,

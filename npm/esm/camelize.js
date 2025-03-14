@@ -1,3 +1,10 @@
+/**
+ * The camelize module includes the camelize function for strings
+ * which converts a string to camel case. It is primarily used for
+ * converting code to camel case.
+ *
+ * @module
+ */
 import { camelize as og } from "@bearz/slices/camelize";
 /**
  * Converts the string to camel case. This is primarily for converting

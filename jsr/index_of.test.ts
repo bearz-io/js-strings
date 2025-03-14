@@ -1,13 +1,12 @@
 import { test } from "@bearz/testing";
 import { equal } from "@bearz/assert";
-import { indexOfFold, indexOf } from "./index_of.ts";
+import { indexOf, indexOfFold } from "./index_of.ts";
 
 test("strings::indexOfFold", () => {
-    equal(0, indexOfFold("Hello sdf", "hello"));
+    equal(indexOfFold("Hello sdf", "hello"), 0);
     equal(0, indexOfFold("Hello", "HELLO"));
     equal(7, indexOfFold("sdfsdf Hello", "hello"));
 });
-
 
 test("strings::indexOf", () => {
     equal(-1, indexOf("Hello sdf", "hello"));
