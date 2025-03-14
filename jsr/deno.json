@@ -1,7 +1,7 @@
 {
     "name": "@bearz/strings",
     "version": "0.1.0",
-    "description": "A collection of string utilities to avoid extra allocations and enable case insentitivity comparisons.",
+    "description": "A collection of string utilities to avoid extra allocations and enable case insensitivity comparisons.",
     "keywords": [
         "strings",
         "string",
