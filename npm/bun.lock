@@ -5,7 +5,7 @@
       "name": "@bearz/strings",
       "dependencies": {
         "@bearz/chars": "^0.1.0",
-        "@bearz/slices": "^0.1.0",
+        "@bearz/slices": "^0.1.1",
       },
       "devDependencies": {
         "@bearz/assert": "^0.1.0",
