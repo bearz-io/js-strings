@@ -1,6 +1,6 @@
 {
     "name": "@bearz/strings",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A collection of string utilities to avoid extra allocations and enable case insensitivity comparisons.",
     "keywords": [
         "strings",
@@ -23,7 +23,7 @@
         "./index-of": "./index_of.ts",
         "./inflect": "./inflect.ts",
         "./is-null": "./is_null.ts",
-        "./is_empty.ts": "./is_empty.ts",
+        "./is-empty": "./is_empty.ts",
         "./is-space": "./is_space.ts",
         "./is-undefined": "./is_undefined.ts",
         "./last-index-of": "./last_index_of.ts",

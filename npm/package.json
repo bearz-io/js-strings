@@ -1,7 +1,7 @@
 {
   "name": "@bearz/strings",
-  "version": "0.1.0",
-  "description": "A collection of string utilities to avoid extra allocations and enable case insentitivity comparisons.",
+  "version": "0.1.1",
+  "description": "A collection of string utilities to avoid extra allocations and enable case insensitivity comparisons.",
   "keywords": [
     "strings",
     "string",
@@ -79,7 +79,7 @@
         "default": "./esm/is_null.js"
       }
     },
-    "./is_empty.ts": {
+    "./is-empty": {
       "import": {
         "types": "./types/is_empty.d.ts",
         "default": "./esm/is_empty.js"

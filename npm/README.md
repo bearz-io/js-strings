@@ -2,7 +2,7 @@
 
 ## Overview
 
-A collection of string utilities to avoid extra allocations and enable case insentitivity comparisons.
+A collection of string utilities to avoid extra allocations and enable case insensitivity comparisons.
 
 The comparions are functions like `equal`, `startsWith`, `indexOf`, etc. Each of those
 have both a normal version like `equal` and a case insensitive version like `equalFold`.
