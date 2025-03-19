@@ -37,6 +37,9 @@
  * [MIT License](./LICENSE.md) and additional MIT License for the
  * inflection code, see [License](./LICENSE.md) for details.
  */
+export * from "./camelize.ts";
+export * from "./capitalize.ts";
+export * from "./dasherize.ts";
 export * from "./ends_with.ts";
 export * from "./equal.ts";
 export * from "./index_of.ts";
@@ -45,6 +48,8 @@ export * from "./is_null.ts";
 export * from "./is_empty.ts";
 export * from "./is_space.ts";
 export * from "./is_undefined.ts";
+export * from "./last_index_of.ts";
+export * from "./pascalize.ts";
 export * from "./split.ts";
 export * from "./starts_with.ts";
 export * from "./string_builder.ts";

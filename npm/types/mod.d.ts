@@ -37,6 +37,9 @@
  * [MIT License](./LICENSE.md) and additional MIT License for the
  * inflection code, see [License](./LICENSE.md) for details.
  */
+export * from "./camelize.js";
+export * from "./capitalize.js";
+export * from "./dasherize.js";
 export * from "./ends_with.js";
 export * from "./equal.js";
 export * from "./index_of.js";
@@ -45,6 +48,8 @@ export * from "./is_null.js";
 export * from "./is_empty.js";
 export * from "./is_space.js";
 export * from "./is_undefined.js";
+export * from "./last_index_of.js";
+export * from "./pascalize.js";
 export * from "./split.js";
 export * from "./starts_with.js";
 export * from "./string_builder.js";
